@@ -9,10 +9,10 @@ Attention：滤镜添加以及gif转换需要一定的处理时间，可能会�
 
 Preview:
 主界面
-![image](https://github.com/exevvv/LiveGif/主.jpg)
+![image](https://github.com/exevvv/LiveGif/blob/master/主.jpg)
 转换界面
-![image](https://github.com/exevvv/LiveGif/转换.jpg)
+![image](https://github.com/exevvv/LiveGif/blob/master/转换.jpg)
 拍摄界面
-![image](https://github.com/exevvv/LiveGif/拍摄.jpg)
+![image](https://github.com/exevvv/LiveGif/blob/master/拍摄.jpg)
 拍摄处理界面
-![image](https://github.com/exevvv/LiveGif/处理.jpg)
+![image](https://github.com/exevvv/LiveGif/blob/master/处理.jpg)
