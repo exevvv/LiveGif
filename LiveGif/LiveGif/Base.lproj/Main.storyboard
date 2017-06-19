@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0d4-Ep-498">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -21,11 +21,11 @@
                         <viewControllerLayoutGuide type="bottom" id="ftw-HL-alH"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="uUU-tK-Zgc">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="zY1-q4-Vhn">
-                                <rect key="frame" x="0.0" y="214" width="320" height="354"/>
+                                <rect key="frame" x="0.0" y="214" width="414" height="522"/>
                                 <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Y7U-6r-vFm">
                                     <size key="itemSize" width="100" height="100"/>
@@ -69,7 +69,7 @@
                                 </connections>
                             </collectionView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="s5h-2L-TFW">
-                                <rect key="frame" x="53" y="0.0" width="214" height="214"/>
+                                <rect key="frame" x="100" y="0.0" width="214" height="214"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="214" id="jys-Dm-MkO"/>
                                     <constraint firstAttribute="width" secondItem="s5h-2L-TFW" secondAttribute="height" multiplier="1:1" id="tiq-hs-7Wn"/>
@@ -114,43 +114,43 @@
                         <viewControllerLayoutGuide type="bottom" id="Fhl-Ve-qDp"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="GxY-vz-vwT">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y7o-FA-e3L" customClass="CameraPreviewView" customModule="LiveGif" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="384"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="552"/>
                                 <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VAN-SH-gb0">
-                                <rect key="frame" x="16" y="445" width="80" height="80"/>
+                                <rect key="frame" x="20" y="613" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="0c1-Ad-ZKx"/>
                                     <constraint firstAttribute="width" constant="80" id="ukZ-NR-BFT"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Live Photo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bs5-eZ-Dk2">
-                                <rect key="frame" x="162" y="525" width="85" height="35"/>
+                                <rect key="frame" x="252" y="693" width="85" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="0.6415800452" green="0.82496678830000003" blue="0.78038358689999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OoA-Vr-MO6">
-                                <rect key="frame" x="255" y="528" width="51" height="31"/>
+                                <rect key="frame" x="345" y="696" width="51" height="31"/>
                                 <color key="onTintColor" red="0.6415800452" green="0.82496678830000003" blue="0.78038358689999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUT-iP-i8A">
-                                <rect key="frame" x="120" y="445" width="80" height="80"/>
+                                <rect key="frame" x="167" y="613" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="1t3-hc-WU7"/>
                                     <constraint firstAttribute="height" constant="80" id="hs6-MC-1xz"/>
                                 </constraints>
-                                <state key="normal" image="camera512x512+(1)"/>
+                                <state key="normal" image="camera512x512+(1)副本"/>
                                 <connections>
                                     <action selector="handleShutterButtonTap:" destination="ON1-Zq-Uww" eventType="touchUpInside" id="TIk-56-SW4"/>
                                 </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Processing..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ufd-cX-XOF">
-                                <rect key="frame" x="16" y="525" width="110" height="35"/>
+                                <rect key="frame" x="20" y="693" width="110" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="u0d-Hc-hFl"/>
                                 </constraints>
@@ -159,7 +159,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6xd-Vh-E2m">
-                                <rect key="frame" x="16" y="445" width="80" height="80"/>
+                                <rect key="frame" x="20" y="613" width="80" height="80"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -217,15 +217,15 @@
                         <viewControllerLayoutGuide type="bottom" id="gLZ-YA-oJa"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="BH9-F6-kzl">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1yT-ho-BCi" customClass="PHLivePhotoView">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="384"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="552"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QH6-Jc-t6n">
-                                <rect key="frame" x="96" y="503" width="128" height="57"/>
+                                <rect key="frame" x="143" y="671" width="128" height="57"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="128" id="QG8-Cq-d8E"/>
                                     <constraint firstAttribute="height" constant="57" id="na7-C3-n6c"/>
@@ -238,7 +238,7 @@
                                 </connections>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="hQY-6m-ge4">
-                                <rect key="frame" x="16" y="392" width="288" height="100"/>
+                                <rect key="frame" x="20" y="560" width="374" height="100"/>
                                 <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="NJB-sU-VkM">
                                     <size key="itemSize" width="100" height="100"/>
@@ -318,11 +318,11 @@
                         <viewControllerLayoutGuide type="bottom" id="BzO-C7-RJj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Wvc-iN-hcc">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZE-cZ-nWL">
-                                <rect key="frame" x="67" y="527" width="186" height="33"/>
+                                <rect key="frame" x="71" y="695" width="272" height="33"/>
                                 <color key="backgroundColor" red="0.81901842359999999" green="0.41293027999999998" blue="0.41619807479999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <state key="normal" title="Export GIF">
@@ -338,7 +338,7 @@
                                 </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="P1r-he-1J4">
-                                <rect key="frame" x="16" y="72" width="288" height="29"/>
+                                <rect key="frame" x="20" y="72" width="374" height="29"/>
                                 <color key="backgroundColor" red="0.81901842359999999" green="0.41293027999999998" blue="0.41619807479999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <segments>
                                     <segment title="Small"/>
@@ -356,7 +356,7 @@
                                 </connections>
                             </segmentedControl>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="CSx-nh-4GU">
-                                <rect key="frame" x="16" y="441" width="288" height="78"/>
+                                <rect key="frame" x="20" y="609" width="374" height="78"/>
                                 <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="78" id="iCc-pS-wHD"/>
@@ -369,7 +369,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FilterCell" id="GTI-o5-ck8" customClass="FilterCollectionViewCell" customModule="LiveGif" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="1.5" width="75" height="75"/>
+                                        <rect key="frame" x="0.0" y="1.6666666666666667" width="75" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
@@ -447,6 +447,9 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.6415800452" green="0.82496678830000003" blue="0.78038358689999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.6415800452" green="0.82496678830000003" blue="0.78038358689999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="AA7-st-7bm">
@@ -463,6 +466,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="camera512x512+(1)" width="512" height="512"/>
+        <image name="camera512x512+(1)副本" width="512" height="512"/>
     </resources>
 </document>
