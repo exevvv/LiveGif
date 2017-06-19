@@ -18,13 +18,17 @@ Attention
 Preview
 ---
 主界面
+
 ![image](https://github.com/exevvv/LiveGif/blob/master/主.jpg)
 
 转换界面
+
 ![image](https://github.com/exevvv/LiveGif/blob/master/转换.jpg)
 
 拍摄界面
+
 ![image](https://github.com/exevvv/LiveGif/blob/master/拍摄.jpg)
 
 拍摄处理界面
+
 ![image](https://github.com/exevvv/LiveGif/blob/master/处理.jpg)
