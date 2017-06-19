@@ -2,8 +2,8 @@
 App Name
 ---
 LiveGif
----
 iOS Version
+---
 10.3
 Function
 ---
